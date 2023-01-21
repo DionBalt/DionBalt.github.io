@@ -1,15 +1,17 @@
 body {
-  background-color: dimgray;
+  background-color: #181818;
   color: #4e4e4e;
 }
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   color: #1e1e1e;
+}
+h3 {
+  color: #B8B8B8;
 }
 
 a {
@@ -79,8 +81,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: black;
-  
+  background-color: #080808;
 }
 
 .overlay-mf {
