@@ -1,5 +1,5 @@
 body {
-  background-color: #181818;
+  background-color: #080808;
   color: #4e4e4e;
 }
 
@@ -22,7 +22,7 @@ a {
 a:hover {
   color: #0078ff;
   text-decoration: none;
-  transition: all 0.5s ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 
 .p-r {
@@ -144,8 +144,9 @@ a:hover {
   text-transform: uppercase;
 }
 
+
 .subtitle-a {
-  color: #4e4e4e;
+  color: whitesmoke;
 }
 
 .line-mf {
@@ -298,7 +299,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #0078ff;
+  background-color: grey;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -691,44 +692,6 @@ a:hover {
   background-color: grey;
 }
 
-/*======================================
-//--//-->   SERVICES
-======================================*/
-
-.service-box {
-  background-color: white;
-  padding: 2.5rem 1.3rem;
-  border-radius: 1rem;
-  margin-bottom: 3rem;
-}
-
-.service-box:hover .ico-circle {
-  transition: all 500ms ease;
-  color: white;
-  background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
-}
-
-.service-box .service-ico {
-  margin-bottom: 1rem;
-  color: #1e1e1e;
-}
-
-.service-box .ico-circle {
-  transition: all 500ms ease;
-  font-size: 4rem;
-}
-
-.service-box .s-title {
-  font-size: 1.4rem;
-  text-transform: uppercase;
-  text-align: center;
-  padding: .4rem 0;
-}
-
-.service-box .s-description {
-  color: #4e4e4e;
-}
 
 /*======================================
 //--//-->   COUNTER
@@ -789,8 +752,8 @@ a:hover {
   font-size: .8rem;
 }
 
-.work-content .w-more .w-ctegory {
-  color: #0078ff;
+.work-content .w-more .w-ctegory, .w-date {
+  color: black;
 }
 
 .work-content .w-like {
@@ -829,7 +792,7 @@ a:hover {
 ======================================*/
 
 footer {
-  text-align: center;
+  text-align: auto;
   color: white;
   padding-bottom: 4rem;
 }
