@@ -758,12 +758,12 @@ a:hover {
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #0078ff;
+  color: black;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #0078ff;
+  color: black;
 }
 
 .work-content .w-like .num-like {
