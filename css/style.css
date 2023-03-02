@@ -214,12 +214,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  box-shadow: 0 0 0 3px;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #0078ff;
+  background-color: #3c3849;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -473,28 +473,28 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all 0.5s ease-in-out;
-  background-color: ccd9e2;
+  background-color: #3c3849;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #64766a;
+  color: #bababa;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #64766a;
+  background-color: #bababa;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #64766a;
+  color: #bababa;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #64766a;
+  color: #bababa;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
@@ -1923,17 +1923,16 @@ fieldset[disabled] .button.is-primary.is-inverted {
 
 .button.is-primary.is-outlined {
   background-color: transparent;
-  border-color: #5074a7;
-  color: #0a62e0;
+  border-color: #1d1b26;
+  color: #212121;
 }
 
 .button.is-primary.is-outlined:hover,
 .button.is-primary.is-outlined.is-hovered,
 .button.is-primary.is-outlined:focus,
 .button.is-primary.is-outlined.is-focused {
-  background-color: #5074a7;
-  border-color: #0a62e0;
-  color: white;
+  background-color: darkslategray;
+  border-color: transparent;
 }
 
 .button.is-primary.is-outlined.is-loading::after {
@@ -9096,7 +9095,7 @@ a,
 }
 
 a {
-  color: #0a62e0;
+  color: white;
 }
 
 a:hover {
@@ -10231,4 +10230,4 @@ input[name="carousel"] {
   background-color: rgba(20, 28, 58, 0.08);
   color: #141c3a;
 }
-/*# sourceMappingURL=main.css.map */
+
