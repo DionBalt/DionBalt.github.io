@@ -1,6 +1,6 @@
 body {
-  background-color: black;
-  color: black;
+  background-color: #354f52;
+  color: #354f52;
 }
 
 h1,
@@ -81,7 +81,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: black;
+  background-color: #2f3e46;
 }
 
 .overlay-mf {
@@ -324,7 +324,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0077ff2a;
+  background: #212529;
   color: #ffffff9d;
   width: 44px;
   height: 44px;
@@ -473,32 +473,32 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all 0.5s ease-in-out;
-  background-color: #3c3849;
+  background-color: #52796f;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #bababa;
+  color: #2f3e46;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #bababa;
+  background-color: #2f3e46;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #bababa;
+  color: #2f3e46;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #bababa;
+  color: #2f3e46;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #94a7ae;
+  color: #2f3e46;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -10230,4 +10230,3 @@ input[name="carousel"] {
   background-color: rgba(20, 28, 58, 0.08);
   color: #141c3a;
 }
-
